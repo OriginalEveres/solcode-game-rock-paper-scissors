@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 id="info">Game</h1>
+
+    <div class="game-area">
+      <p id="player" class="player">📜</p>
+      <p id="score" class="score-counter">0:0</p>
+      <p id="enemy" class="player">✊</p>
+    </div>
+
+    <div class="options-wrapper">
+      <p id="rock">✊</p>
+      <p id="scissors">✂️</p>
+      <p id="paper">📜</p>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+
+    let game = new GameManager('score', 'player', 'enemy', 'rock', 'paper', 'scissors', 'info');
+
+  </script>
+</body>
+</html>

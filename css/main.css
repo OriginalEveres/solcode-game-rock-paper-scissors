@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #1B262C;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-area {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.player {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 24px;
+  border-bottom: 1px solid #827397;
+  font-size: 118px;
+}
+
+.score-counter {
+  display: inline-block;
+  font-size: 72px;
+  line-height: 90px;
+  color: #81B3FF;
+  vertical-align: middle;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.options-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 132px;
+  width: max-content;
+}
+
+.options-wrapper p {
+  display: inline-block;
+  font-size: 72px;
+  line-height: 90px;
+  margin: 24px;
+  cursor: pointer;
+  transition: 250ms ease; 
+}
+
+.options-wrapper p:hover {
+  transform: scale(1.1);
+}
